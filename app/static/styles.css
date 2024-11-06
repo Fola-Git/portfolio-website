@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #4b0082;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #4b0082;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+header p {
+    font-size: 1.2rem;
+}
+header nav a {
+    color: #4ddde0;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+/* Sections */
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+section h2 {
+    color: #4b0082;
+    border-bottom: 2px solid #4ddde0;
+    padding-bottom: 0.5rem;
+}
+
+/* Experience and Projects Cards */
+.experience-card, .project-card {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-left: 5px solid #4b0082;
+}
+
+/* Certifications and Volunteering Lists */
+#certifications ul, #volunteering ul {
+    list-style-type: none;
+    padding: 0;
+}
+#certifications ul li, #volunteering ul li {
+    padding: 0.5rem 0;
+    color: #4b0082;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input, form textarea, form button {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #4b0082;
+}
+form button {
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #4b0082;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
