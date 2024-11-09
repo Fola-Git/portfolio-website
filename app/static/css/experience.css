@@ -1,0 +1,184 @@
+/* Reset default padding and margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Layout - A4 Size */
+@media print {
+    body {
+        width: 210mm; /* A4 width */
+        height: 297mm; /* A4 height */
+        margin: 0;
+        padding: 0;
+        font-family: Roboto;
+        color: #333;
+    }
+}
+
+body {
+    font-family: Roboto;
+    background-color: #f0f4f8; /* Soft background color for readability */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #4ddde0;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+nav ul li a:hover {
+    background-color: #4ddde0;
+    color: #4b0082;
+    border-radius: 5px;
+}
+
+/* Centered Main Container for A4 Page Display */
+main {
+    flex: 1; /* Ensures the main content takes up remaining space */
+    max-width: 210mm;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+/* Experience Section Styles */
+.experience {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+h1 {
+    color: #4b0082;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.job h2 {
+    color: #4b0082;
+    font-size: 20px;
+}
+.company, .date {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+}
+.tasks {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+#volunteering-experience {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#volunteering-experience h2 {
+    font-size: 24px;
+    color: #4b0082;
+    margin-bottom: 10px;
+}
+
+.experience-item {
+    margin-bottom: 15px;
+}
+
+.experience-item h3 {
+    font-size: 15px;
+    color: #555;
+    margin: 0;
+}
+
+.experience-item .status {
+    font-style: italic;
+    color: #00aaff; /* Adjust color as needed */
+    font-weight: normal;
+}
+
+.description {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0 10px 0;
+}
+
+/* Center the Download Resume button */
+.cta {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* CTA Download Resume Button */
+.download-btn {
+    display: inline-block;
+    background-color: #4b0082;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    font-weight: bold;
+}
+.download-btn:hover {
+    background-color: #4ddde0;
+    color: #4b0082;
+    transform: scale(1.05);
+}
+
+/* Back to Top Button */
+.back-to-top {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #4b0082;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 5px 0;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.back-to-top:hover {
+    color: #4ddde0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4ddde0;
+    text-align: center;
+    padding: 10px;
+    color: #333;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+footer .love {
+    color: yellow;
+}
